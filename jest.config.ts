@@ -6,4 +6,4 @@ const config: Config = {
   testEnvironment: 'node',
 };
 
-export { config };
+export default config;
