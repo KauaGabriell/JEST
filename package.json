@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "tsx --watch src/server.ts",
+    "test:dev": "jest --watchAll",
     "test": "jest"
   },
   "keywords": [],
