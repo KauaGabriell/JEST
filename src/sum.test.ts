@@ -1,6 +1,14 @@
 import { sum } from './server';
 
 describe('sum', () => {
+  beforeAll(() => {
+    //Executa algo antes de todos os testes
+  });
+
+  afterAll(()=>{
+    //Executa algo depois de todos os testes.
+  })
+
   it('sum 3 + 7 must be 10', () => {
     const result = sum(3, 7);
 
