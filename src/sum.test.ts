@@ -1,3 +1,7 @@
-test('Conhecendo o Jest', () => {
-  console.log('Testando....');
+import { sum } from './server';
+
+test('sum 3 + 7 must be 10', () => {
+  const result = sum(3, 7);
+
+  expect(result).toBe(10);
 });
