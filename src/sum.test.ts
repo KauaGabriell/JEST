@@ -1,7 +1,7 @@
 import { sum } from './server';
 
 describe('sum', () => {
-  test('sum 3 + 7 must be 10', () => {
+  it('sum 3 + 7 must be 10', () => {
     const result = sum(3, 7);
 
     expect(result).toBe(10);
